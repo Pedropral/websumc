@@ -1,0 +1,115 @@
+/**INICIO HEADER**/
+#header{
+    background-color: grey;
+    background-image: url(../websumc/img/bandafondo.jpg);
+}
+
+.logoheader{
+    width: 250px;
+}
+
+.societatnom h2{
+    color:  #0B0146;
+    font-family: 'EB Garamond', serif;
+}
+    /**estilos menu*/
+ul {
+    list-style-type: none;
+}
+
+li a{
+    color: white;
+    
+}
+
+
+  
+
+/**FIN HEADER**/
+
+
+/** INICIO CARDS**/
+.textocard{
+    color: white;
+}
+
+.btn{
+    background-color: #0B0146;
+    color: white;
+}
+
+.btn:hover {
+    background-color:white;
+    color:#0B0146;
+  }
+/**FIN CARDS**/
+
+/**INICIO FOOTER**/
+
+.page-footer{
+    background-color: black;
+}
+
+.page-footer h6, p, a {
+    color: white;
+}
+
+.fa{
+    color: white;
+   
+}
+/**LOGOS HOVER**/
+.fb:hover{
+    color: #3b5998;
+    transition: 0.5s;
+}
+
+.insta:hover{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: 0.5s;
+
+}
+
+.you:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.fkr:hover{
+    color:#ff0084;
+    transition: 0.5s
+}
+
+
+/** FIN LOGOS HOVER**/
+
+
+
+/* unvisited link */
+.page-footer a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  .page-footer a:visited {
+    color:grey;
+  }
+  
+  /* mouse over link */
+  .page-footer a:hover {
+    color:grey;
+    text-decoration: none;
+  }
+
+  .copyright{
+      height: 50px;
+      width: 100%;
+      background-color: rgb(82, 80, 80);
+      padding: 10px;
+  }
+
+/**FIN FOOTER**/
