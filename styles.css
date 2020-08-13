@@ -1,39 +1,21 @@
 /**INICIO HEADER**/
-#header{
-    background-color: grey;
-    background-image: url(../websumc/img/bandafondo.jpg);
-}
-
-.logoheader{
-    width: 250px;
-}
-
-.societatnom h2{
-    color:  #0B0146;
-    font-family: 'EB Garamond', serif;
-}
-    /**estilos menu*/
-ul {
-    list-style-type: none;
-}
-
-li a{
-    color: white;
+.navbar{
     
+    background-image: url(../websumc/img/bandafondo2.jpg);
 }
 
 
-  
-
-/**FIN HEADER**/
-
-
-/** INICIO CARDS**/
-.textocard{
-    color: white;
-}
-
-.btn{
+.flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+  }
+  .btn{
     background-color: #0B0146;
     color: white;
 }
@@ -42,7 +24,37 @@ li a{
     background-color:white;
     color:#0B0146;
   }
-/**FIN CARDS**/
+
+  .labanda:hover {
+    background-image: url(../websumc/img/bandaactual.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .escola:hover {
+    background-image: url(../websumc/img/escola.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.societat:hover{
+    background-image: url(../websumc/img/academia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.historia:hover{
+    background-image: url(../websumc/img/banda1929.jpg);
+    background-repeat: none;
+    background-position: center;
+}
+
+
+    
+
+
+  
+
 
 /**INICIO FOOTER**/
 
