@@ -25,16 +25,26 @@
     color:#0B0146;
   }
 
+  /**.labanda{
+  background-image: url(../websumc/img/bandaactual_bn.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  
+  } **/
+  
   .labanda:hover {
     background-image: url(../websumc/img/bandaactual.jpg);
     background-repeat: no-repeat;
     background-position: center;
+   
   }
 
   .escola:hover {
     background-image: url(../websumc/img/escola.jpg);
     background-repeat: no-repeat;
     background-position: center;
+   
   }
 
 .societat:hover{

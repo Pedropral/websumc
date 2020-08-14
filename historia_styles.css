@@ -5,15 +5,16 @@
 body {
   background-color: #343A40;
   font-family: Helvetica, sans-serif;
+  
 }
 
 /**INICIO HEADER**/
 .header {
   padding: 15px;
   text-align: center;
-  background: #9fa3a294;
   color: #0B0146;
   font-size: 20px;
+
 }
 /**FIN HEADER**/
 /* The actual timeline (the vertical ruler) */
