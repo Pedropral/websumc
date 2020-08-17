@@ -1,0 +1,48 @@
+body{
+    background-color: #343A40;
+    
+}
+
+/**INICIO HEADER**/
+.header {
+    padding: 15px;
+    text-align: center;
+    color: #0B0146;
+    font-size: 20px;
+  
+  }
+  /**FIN HEADER**/
+
+/**TABLAS**/
+
+.formacio h1{
+    color: white;
+    text-align: center;
+}
+
+.tabla{
+    border: 1px solid black;
+    
+}
+.tabla-verde{
+    background-color: #69CBB4;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+.tabla-blanca{
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+  
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+   
+  }
