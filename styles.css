@@ -1,3 +1,9 @@
+
+h2{
+  font-family: 'Vollkorn', serif;
+}
+
+
 /**INICIO HEADER**/
 .navbar{
     
@@ -41,11 +47,13 @@
   }
 
   .escola:hover {
-    background-image: url(../websumc/img/escola.jpg);
+    background-image: url(../websumc/img/sum2.jpg);
     background-repeat: no-repeat;
     background-position: center;
+  
+    }
    
-  }
+  
 
 .societat:hover{
     background-image: url(../websumc/img/academia.jpg);
@@ -58,6 +66,8 @@
     background-repeat: none;
     background-position: center;
 }
+
+
 
 
     
