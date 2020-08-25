@@ -177,6 +177,32 @@ border-radius: 50%;
 }
 
 
+/**CARDS DESCARGA LIBRO**/
+
+.descarga{
+  background: #17A2B8;
+  border-radius: 20px;
+  color: white;
+}
+
+.descarga img{
+    
+  width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.descarga h5{
+  background: #19252E;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.descarga h6{
+  color: black;
+}
+
+
 /**PARRAFO INGRÉS BANDA**/
 
 .parrafo_ingres p{
@@ -254,24 +280,38 @@ border-radius: 50%;
     
 
  /** LIBRO 75 ANIVERSARIO**/
- 
- .enlaceslibro{
-   padding: 30px;
-   text-align:center;
+
+ .descarga{
+   background: rgb(206, 202, 202, 0.1);
  }
 
- .enlaceslibro img{
-   width: 200px;
+ .descarga h5{
+   background-color: #17A2B8;
  }
-
- .enlaceslibro a{
-   color: black;
+ .descarga a{
+   color: white;
    text-decoration: none;
-   font-family: Arial, Helvetica, sans-serif;
-
  }
 
- .enlaceslibro a:hover{
-   color: blue;
+ .descarga a:hover{
+   color: #605f66;
    
+ }
+ 
+ 
+
+ /**DIRECTOR**/
+
+ .texto_foto p{
+   overflow: scroll;
+   height: 750px;
+ }
+ .mondejar{
+   margin: 20px;
+   
+ }
+
+ .mondejar img{
+   width: 500px;
+   margin-right: 30px;
  }
