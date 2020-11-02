@@ -1,14 +1,24 @@
 
+body {
+  display:flex;
+  flex-direction:column;
+}
+
+
+
 h2{
   font-family: 'Vollkorn', serif;
 }
 
 
 /**INICIO HEADER**/
-.navbar{
+ .navbar{
     
     background-image: url(../websumc/img/bandafondo2.jpg);
 }
+
+
+
 
 
 .flex-equal > * {
@@ -31,13 +41,28 @@ h2{
     color:#0B0146;
   }
 
-  /**.labanda{
-  background-image: url(../websumc/img/bandaactual_bn.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  
-  
-  } **/
+
+
+  .societat{
+    background-color: #17A2B8;
+    
+  }
+  @media (max-width:768px){
+    .societat{
+      background-color: #343A40 ;
+      }
+  }
+
+  .historia{
+    background-color: #343A40;
+  }
+
+  @media (max-width:768px){
+    .historia{
+      background-color: #17A2B8;
+    }
+  }
+ 
   
   .labanda:hover {
     background-image: url(../websumc/img/bandaactual.jpg);
@@ -154,9 +179,7 @@ h2{
 /** INICI PÁGINA ESCOLA **/
 
 /**BODY**/
-#fondoacademic{
-  background-color: #343A40;
-}
+
 
 
 
