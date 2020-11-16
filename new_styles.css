@@ -17,26 +17,35 @@ body {
       -ms-flex: 1;
       flex: 1;
     } 
+
+   .btn{
+       background-color: white;
+   } 
 .cuadro_azul{
     background-color: #0B0146;
-    background-image: url(../websumc/img/bandafondo_02.jpg);
+    background-image: url(img/bandafondo_02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     height: 250px;
     text-align: center;
     color: white;
     border-radius: 5px;
 }
 
-.cuadro_azul :hover{
-    background-image: url(../websumc/img/bandaactual.jpg);
+
+
+/** .cuadro_azul :hover{
+    background-image: url(img/bandaactual.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
+**/
 
 
 
 .cuadro_dorado{
     background-color: #A8943F;
-    background-image: url(../websumc/img/sum2_02.jpg);
+    background-image: url(img/sum2_02.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 250px;
@@ -47,8 +56,8 @@ body {
     
 }
 
-.cuadro_dorado :hover{
-    background-image: url(../websumc/img/sum2.jpg);
+/** .cuadro_dorado :hover{
+    background-image: url(img/sum2.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -56,3 +65,74 @@ body {
 .textocuadro{
     margin: 30px;
 } 
+
+
+/**INICIO FOOTER**/
+
+.page-footer{
+    background-color: rgb(160, 140, 140, 0.5);
+}
+
+.page-footer h6, p, a {
+    color: white;
+}
+
+.fa{
+    color: white;
+   
+}
+/**LOGOS HOVER**/
+.fb:hover{
+    color: #3b5998;
+    transition: 0.5s;
+}
+
+.insta:hover{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: 0.5s;
+
+}
+
+.you:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.fkr:hover{
+    color:#ff0084;
+    transition: 0.5s
+}
+
+
+/** FIN LOGOS HOVER**/
+
+
+
+/* unvisited link */
+.page-footer a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  .page-footer a:visited {
+    color:grey;
+  }
+  
+  /* mouse over link */
+  .page-footer a:hover {
+    color:grey;
+    text-decoration: none;
+  }
+
+  .copyright{
+      height: 50px;
+      width: 100%;
+      background-color: rgb(82, 80, 80);
+      padding: 10px;
+  }
+
+/**FIN FOOTER**/
