@@ -32,6 +32,13 @@ body {
     border-radius: 5px;
 }
 
+.historia{
+    background-image: url(img/historia_fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 
 
 /** .cuadro_azul :hover{
@@ -54,6 +61,14 @@ body {
     border-radius: 5px;
     
     
+}
+
+.societat{
+    background-image: url(img/societat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+
 }
 
 /** .cuadro_dorado :hover{
