@@ -22,7 +22,15 @@ h4{
 /**FIN FUENTES**/
 
 
+.btn{
+    color: black;
+    background-color: white;
+}
 
+.btn:hover{
+    color: white;
+    background-color: grey;
+}
 .escola{
     background: url(img/escola\ \(2\).jpg);
     background-repeat: no-repeat;
