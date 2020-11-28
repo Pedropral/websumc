@@ -32,21 +32,29 @@ h4{
     background-color: grey;
 }
 .escola{
-    background: url(img/escola\ \(2\).jpg);
+    background: url(img/escola_groc.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .societat{
-    background: url(img/societat.jpg);
+    background: url(img/academia.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .historia{
     background: url(img/historia_fondo.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    color: white;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 20px;
+    
 }
 
 
@@ -157,3 +165,22 @@ h4{
   }
 
 /**FIN FOOTER**/
+
+
+/**MEDIA-QUERYS **/
+@media (max-width: 768px) {
+    .societat{
+        background: url(img/academia_blau.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }  
+
+    .historia{
+        background: url(img/historia_groc.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+  
+  }
