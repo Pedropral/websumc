@@ -142,4 +142,18 @@ h4{
       padding: 10px;
   }
 
+
+
+  .modal-header, .modal-footer{
+      background-color: #A8943F;
+      color: white;
+      
+  }
+.modal-body{
+    text-align: justify;
+}
+  .modal-body a{
+      color: blue;
+  }
+
 /**FIN FOOTER**/
