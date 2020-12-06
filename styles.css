@@ -1,0 +1,189 @@
+
+body {
+  display:flex;
+  flex-direction:column;
+}
+
+
+
+h2{
+  font-family: 'Vollkorn', serif;
+}
+
+
+/**INICIO HEADER**/
+ .navbar{
+    
+    background-image: url(../websumc/img/bandafondo2.jpg);
+}
+
+
+
+
+
+.flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+  }
+  .btn{
+    background-color: #0B0146;
+    color: white;
+}
+
+.btn:hover {
+    background-color:white;
+    color:#0B0146;
+  }
+
+
+
+  .societat{
+    background-color: #17A2B8;
+    
+  }
+  @media (max-width:768px){
+    .societat{
+      background-color: #343A40 ;
+      }
+  }
+
+  .historia{
+    background-color: #343A40;
+  }
+
+  @media (max-width:768px){
+    .historia{
+      background-color: #17A2B8;
+    }
+  }
+ 
+  
+  .labanda:hover {
+    background-image: url(../websumc/img/bandaactual.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+  }
+
+  .escola:hover {
+    background-image: url(../websumc/img/sum2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    }
+   
+  
+
+.societat:hover{
+    background-image: url(../websumc/img/academia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.historia:hover{
+    background-image: url(../websumc/img/banda1929.jpg);
+    background-repeat: none;
+    background-position: center;
+}
+
+
+
+
+    
+
+
+  
+
+
+/**INICIO FOOTER**/
+
+.page-footer{
+    background-color: black;
+}
+
+.page-footer h6, p, a {
+    color: white;
+}
+
+.fa{
+    color: white;
+   
+}
+/**LOGOS HOVER**/
+.fb:hover{
+    color: #3b5998;
+    transition: 0.5s;
+}
+
+.insta:hover{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: 0.5s;
+
+}
+
+.you:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.fkr:hover{
+    color:#ff0084;
+    transition: 0.5s
+}
+
+
+/** FIN LOGOS HOVER**/
+
+
+
+/* unvisited link */
+.page-footer a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  .page-footer a:visited {
+    color:grey;
+  }
+  
+  /* mouse over link */
+  .page-footer a:hover {
+    color:grey;
+    text-decoration: none;
+  }
+
+  .copyright{
+      height: 50px;
+      width: 100%;
+      background-color: rgb(82, 80, 80);
+      padding: 10px;
+  }
+
+/**FIN FOOTER**/
+
+
+
+
+
+
+/** INICI PÁGINA ESCOLA **/
+
+/**BODY**/
+
+
+
+
+/**HEADER**/
+
+
+
