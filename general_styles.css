@@ -1,8 +1,13 @@
-h1{
-  font-family: 'EB Garamond', serif;
+h5{
+  font-family: 'Times New Roman', serif;
+    font-weight: bold;
 }
 
-
+.body_new{
+  background-color: #0B0146;
+  width: 100%;
+  
+}
 
 body {
     width: 100%;
@@ -14,16 +19,17 @@ body {
     
 }
 
-hr{
+/**hr{
   width:50%;
   height:2px;
   border-width:0;
   color:#19252E;
   background-color:#19252E
 }
-
+**/
 p{
   font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 .titulo_pagina{
@@ -40,13 +46,13 @@ p{
   /**FIN HEADER**/
 
   .section-heading{
-      background-color:  #19252E;
-      color: white !important;
-      border-radius: 20px;
-      padding: 10px;
+    font-family: 'Times New Roman', serif !important;
+    font-weight: bold;
+      color: #A8943F !important;
+     
   }
 
-/**prueba heading**/
+/**prueba heading
 .titulo_pagina {
   background: white;
   display: flex;
@@ -152,6 +158,7 @@ padding: 60px 0;
     font-size: 65px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 5px;
+    margin-top: 20px;
 }
 
 .team-area .card {
@@ -389,3 +396,16 @@ border-radius: 50%;
    
  }
 
+ h2, h6{
+   color: white !important;
+ }
+
+ p{
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .parrafo{
+   text-align: justify;
+   
+ }
+ 
